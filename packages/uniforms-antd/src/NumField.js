@@ -1,7 +1,7 @@
-import InputNumber    from 'antd/lib/input-number';
-import React          from 'react';
-import connectField   from 'uniforms/connectField';
-import filterDOMProps from 'uniforms/filterDOMProps';
+import { InputNumber } from 'antd';
+import React           from 'react';
+import connectField    from 'uniforms/connectField';
+import filterDOMProps  from 'uniforms/filterDOMProps';
 
 import wrapField from './wrapField';
 

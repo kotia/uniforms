@@ -1,13 +1,12 @@
-import Icon           from 'antd/lib/icon';
-import React          from 'react';
-import Tooltip        from 'antd/lib/tooltip';
-import connectField   from 'uniforms/connectField';
-import filterDOMProps from 'uniforms/filterDOMProps';
-import joinName       from 'uniforms/joinName';
-import {Children}     from 'react';
+import { Icon, Tooltip } from 'antd';
+import React             from 'react';
+import connectField      from 'uniforms/connectField';
+import filterDOMProps    from 'uniforms/filterDOMProps';
+import joinName          from 'uniforms/joinName';
+import {Children}        from 'react';
 
-import ListAddField  from './ListAddField';
-import ListItemField from './ListItemField';
+import ListAddField      from './ListAddField';
+import ListItemField     from './ListItemField';
 
 const List = ({
     children,

@@ -1,7 +1,5 @@
-import Icon           from 'antd/lib/icon';
+import { Icon, Checkbox, Switch } from 'antd';
 import React          from 'react';
-import Checkbox       from 'antd/lib/checkbox';
-import Switch         from 'antd/lib/switch';
 import connectField   from 'uniforms/connectField';
 import filterDOMProps from 'uniforms/filterDOMProps';
 

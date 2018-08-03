@@ -1,13 +1,13 @@
 {
-  "name": "uniforms-antd",
-  "version": "1.25.0",
+  "name": "uniforms-antd-babel-plugin-import",
+  "version": "1.0.0",
   "license": "MIT",
   "main": "index.js",
   "module": "src/index.js",
   "jsnext:main": "src/index.js",
-  "description": "Ant Design UI components for uniforms.",
-  "repository": "https://github.com/vazco/uniforms/tree/master/packages/uniforms-antd",
-  "bugs": "https://github.com/vazco/uniforms/issues",
+  "description": "Ant Design UI components for uniforms. Refactored to work with babel-plugin-import",
+  "repository": "https://github.com/kotia/uniforms/tree/master/packages/uniforms-antd",
+  "bugs": "https://github.com/kotia/uniforms/issues",
   "keywords": [
     "form",
     "forms",

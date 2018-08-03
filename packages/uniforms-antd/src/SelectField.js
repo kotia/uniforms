@@ -1,7 +1,5 @@
-import Checkbox       from 'antd/lib/checkbox';
-import Radio          from 'antd/lib/radio';
+import { Checkbox, Radio, Select } from 'antd';
 import React          from 'react';
-import Select         from 'antd/lib/select';
 import connectField   from 'uniforms/connectField';
 import filterDOMProps from 'uniforms/filterDOMProps';
 
