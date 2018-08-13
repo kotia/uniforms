@@ -6,8 +6,8 @@
   "module": "src/index.js",
   "jsnext:main": "src/index.js",
   "description": "Ant Design UI components for uniforms. Refactored to work with babel-plugin-import",
-  "repository": "https://github.com/kotia/uniforms/tree/master/packages/uniforms-antd",
-  "bugs": "https://github.com/kotia/uniforms/issues",
+  "repository": "https://github.com/arachnys/uniforms/tree/master/packages/uniforms-antd",
+  "bugs": "https://github.com/arachnys/uniforms/issues",
   "keywords": [
     "form",
     "forms",
