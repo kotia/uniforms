@@ -1,4 +1,4 @@
-import RadioAntD from 'antd/lib/radio';
+import { Radio as RadioAntD } from 'antd';
 import React from 'react';
 import { connectField, filterDOMProps } from 'uniforms';
 

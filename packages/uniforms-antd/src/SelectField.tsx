@@ -1,7 +1,5 @@
-import Checkbox from 'antd/lib/checkbox';
-import Radio from 'antd/lib/radio';
+import { Checkbox, Radio, Select as SelectAntDesign } from 'antd';
 import React from 'react';
-import SelectAntDesign from 'antd/lib/select';
 import { connectField, filterDOMProps } from 'uniforms';
 
 import wrapField from './wrapField';

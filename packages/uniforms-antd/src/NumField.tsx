@@ -1,4 +1,4 @@
-import InputNumber from 'antd/lib/input-number';
+import { InputNumber } from 'antd';
 import React from 'react';
 import { connectField, filterDOMProps } from 'uniforms';
 

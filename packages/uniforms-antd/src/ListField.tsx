@@ -1,6 +1,5 @@
-import Icon from 'antd/lib/icon';
+import { Icon, Tooltip }  from 'antd';
 import React, { Children } from 'react';
-import Tooltip from 'antd/lib/tooltip';
 import { connectField, filterDOMProps, joinName } from 'uniforms';
 
 import ListItemField from './ListItemField';

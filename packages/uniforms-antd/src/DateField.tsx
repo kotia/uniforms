@@ -1,4 +1,4 @@
-import DatePicker from 'antd/lib/date-picker';
+import { DatePicker } from 'antd';
 import React from 'react';
 import moment from 'moment';
 import { connectField, filterDOMProps } from 'uniforms';
