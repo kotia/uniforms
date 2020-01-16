@@ -1,6 +1,14 @@
-demo/.meteor
-demo/imports/components/vendor
-demo/node_modules
+/coverage
+/lerna-debug.log
 
-packages/*/*.js
-packages/*/node_modules
+/node_modules
+/npm-debug.log
+/npm-debug.log*
+/packages/*/*.d.ts
+/packages/*/*.js
+/packages/*/es6
+/packages/*/node_modules
+/website/.cache-loader
+/website/.docusaurus
+/website/build
+/website/node_modules

@@ -1,10 +1,9 @@
 {
   "name": "uniforms-semantic",
-  "version": "1.25.0",
+  "version": "2.6.5",
   "license": "MIT",
   "main": "index.js",
-  "module": "src/index.js",
-  "jsnext:main": "src/index.js",
+  "module": "es6/index.js",
   "description": "Semantic UI components for uniforms.",
   "repository": "https://github.com/vazco/uniforms/tree/master/packages/uniforms-semantic",
   "bugs": "https://github.com/vazco/uniforms/issues",
@@ -15,20 +14,26 @@
     "react",
     "react-component",
     "schema",
+    "semantic-ui",
     "validation"
   ],
   "files": [
+    "*.d.ts",
     "*.js",
-    "src/"
+    "es6/*.d.ts",
+    "es6/*.js",
+    "src/*.ts",
+    "src/*.tsx"
   ],
   "peerDependencies": {
-    "react": "^16.0.0 || ^15.0.0 || ^0.14.0",
-    "uniforms": "^1.25.0"
+    "react": "^16.0.0 || ^15.0.0 || ^0.14.0"
   },
   "dependencies": {
-    "@babel/runtime": "^7.0.0-beta.51",
-    "classnames": "^2.2.5",
+    "classnames": "^2.0.0",
+    "invariant": "^2.0.0",
     "lodash": "^4.0.0",
-    "prop-types": "^15.5.7"
+    "prop-types": "^15.5.7",
+    "tslib": "^1.10.0",
+    "uniforms": "^2.6.5"
   }
 }

@@ -1,10 +1,9 @@
 {
   "name": "uniforms",
-  "version": "1.25.0",
+  "version": "2.6.5",
   "license": "MIT",
   "main": "index.js",
-  "module": "src/index.js",
-  "jsnext:main": "src/index.js",
+  "module": "es6/index.js",
   "description": "Core package of uniforms.",
   "repository": "https://github.com/vazco/uniforms/tree/master/packages/uniforms",
   "bugs": "https://github.com/vazco/uniforms/issues",
@@ -18,18 +17,21 @@
     "validation"
   ],
   "files": [
+    "*.d.ts",
     "*.js",
-    "src/"
+    "es6/*.d.ts",
+    "es6/*.js",
+    "src/*.ts",
+    "src/*.tsx"
   ],
   "peerDependencies": {
-    "graphql": ">=0.8.2 <1.0.0",
     "react": "^16.0.0 || ^15.0.0 || ^0.14.0",
-    "react-dom": "^16.0.0 || ^15.0.0 || ^0.14.0",
-    "simpl-schema": ">=0.0.4 <2.0.0"
+    "react-dom": "^16.0.0 || ^15.0.0 || ^0.14.0"
   },
   "dependencies": {
-    "@babel/runtime": "^7.0.0-beta.51",
+    "invariant": "^2.0.0",
     "lodash": "^4.0.0",
-    "prop-types": "^15.5.7"
+    "prop-types": "^15.5.7",
+    "tslib": "^1.10.0"
   }
 }

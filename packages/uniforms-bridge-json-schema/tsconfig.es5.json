@@ -1,0 +1,17 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "src",
+    "outDir": ".",
+    "rootDir": "src",
+    "target": "es5",
+    "tsBuildInfoFile": "../../node_modules/.cache/uniforms-bridge-json-schema.es5.tsbuildinfo"
+  },
+  "exclude": ["node_modules"],
+  "include": ["src"],
+  "references": [
+    {
+      "path": "../uniforms/tsconfig.es5.json"
+    }
+  ]
+}

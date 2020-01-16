@@ -1,14 +1,14 @@
 {
   "name": "uniforms-antd-babel-plugin-import",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "license": "MIT",
-  "main": "src/index.js",
-  "module": "src/index.js",
-  "jsnext:main": "src/index.js",
+  "main": "index.js",
+  "module": "es6/index.js",
   "description": "Ant Design UI components for uniforms. Refactored to work with babel-plugin-import",
   "repository": "https://github.com/arachnys/uniforms/tree/master/packages/uniforms-antd",
   "bugs": "https://github.com/arachnys/uniforms/issues",
   "keywords": [
+    "antd",
     "form",
     "forms",
     "meteor",
@@ -18,17 +18,23 @@
     "validation"
   ],
   "files": [
+    "*.d.ts",
     "*.js",
-    "src/"
+    "es6/*.d.ts",
+    "es6/*.js",
+    "src/*.ts",
+    "src/*.tsx"
   ],
   "peerDependencies": {
     "antd": "^3.0.0 || ^2.7.0",
-    "react": "^16.0.0 || ^15.0.0 || ^0.14.0",
-    "uniforms": "^1.25.0"
+    "react": "^16.0.0 || ^15.0.0 || ^0.14.0"
   },
   "dependencies": {
-    "@babel/runtime": "^7.0.0-beta.51",
+    "invariant": "^2.0.0",
     "lodash": "^4.0.0",
-    "prop-types": "^15.5.7"
+    "prop-types": "^15.5.7",
+    "tslib": "^1.10.0",
+    "uniforms": "^2.6.5",
+    "warning": "^4.0.0"
   }
 }
